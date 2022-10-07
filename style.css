@@ -1,0 +1,210 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flip-card {border-radius:5px;
+  background-color: transparent;
+  width: 1500px;
+  height: 700px;
+  perspective: 18000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 12px 12px 12px 12px yellowgreen;
+}
+
+.flip-card:hover .flip-card-inner {box-shadow: yellowgreen;
+  transform: rotatey(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {overflow: hidden;
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {background-image: url("IMAGES/4.jpg");
+  background-color: #333;
+  color: yellowgreen;
+	padding: 15px;
+	border-radius: 25px 0px ;
+  transform: rotateY(180deg);
+}
+		body{background-image: url("IMAGES/4.jpg");background-repeat: repeat;background-size: 600px 600px;
+		background-color: #333}
+	.card2 {align-items: flex-end;
+		color: greenyellow;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 #9acd32;
+}
+
+.container {
+	padding: 2px 16px;}
+.card1{text-shadow:#ff0000;
+			background-image: url("IMAGES/16.jpg");
+		color: yellowgreen;
+	font-size: 48px;
+	font-family: 'Bebas Neue', cursive;
+font-family: 'Finlandica', sans-serif;align-content: center;	
+  background-color: #333;
+  width: 1750px;
+  border: 15px solid yellowgreen;
+	border-radius: 40%;
+  padding: 50px;
+  margin: 20px;}
+	.button {
+	  border: none;
+	  color: white;
+	  padding: 16px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  font-size: 16px;
+	  margin: 4px 2px;
+	  transition-duration: 0.4s;
+	  cursor: pointer;}
+
+	.button1 {border-radius: 30%;
+	  background-color:yellowgreen; 
+	  color: black; 
+	  border: 25px solid yellowgreen;}
+
+	.button1:hover {border:15px solid #333;
+	  background-color: #333;
+	  color: yellowgreen;}
+.button3 {border-radius: 0;
+	  background-color:yellowgreen; 
+	  color: #333; 
+	  border: 1px solid yellowgreen;}
+
+	.button3:hover {border:2px solid #333;
+	  background-color: #333;
+	  color: yellowgreen;}
+	.button2 {border-radius: 30%;
+	  background-color:#333 ; 
+	  color: yellowgreen; 
+	  border: 25px solid #333;}
+
+	.button2:hover {border: 15px solid yellowgreen;
+	  background-color: yellowgreen;
+	  color: #333;}
+.topnav {background-image: url("IMAGES/4.jpg");
+  overflow:hidden;
+  background-color: #333;border-shadow:white;}
+.topnav a {
+  float: left;
+  color: yellowgreen;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+border-shadow:white;}
+.topnav a:hover {
+  background-color: yellowgreen;
+	color: black;}
+.topnav input[type=text] {
+	color: yellowgreen;
+	background-color: #333333;
+  float: right;
+  padding: 6px;
+  border: #333;
+  margin-bottom: 12px;
+  margin-top: 18px;
+  margin-right: 16px;
+  font-size: 27px;}
+.general{height:250PX; width: 250PX; border: #333; border-width: 90PX; border-radius:50px 0; box-shadow: 100px yellowgreen; margin:40px}
+.cardy {color:yellowgreen;display: inline-block;
+  box-shadow: 0 4px 8px 0 yellowgreen;
+  max-width: 300px;
+	max-height: 500px;
+  margin: 40px;
+  text-align: center;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.title {
+  color: grey;
+  font-size: 18px;
+}
+.footer { background-image: url("IMAGES/3.jpg");
+position: fixed;  
+left: 0px;  
+bottom: 0px;  
+right: 10px;   
+width: 100%;  
+background-color: #333;  
+color: yellowgreen;  
+text-align: right;  
+}  
+.footer a {
+  float: left;
+  color: yellowgreen;
+  text-align: center;
+  padding: 1px 6px;
+  text-decoration: none;
+  font-size: 15px;
+border-shadow:yellowgreen;}
+.topnav a:hover {
+  background-color: yellowgreen;
+	color: black;}
+table{color: yellowgreen;box-shadow: 0 4px 8px 0 yellowgreen;
+  max-width: 300px;
+  margin: 40px;
+  text-align: center;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";}
+.images{background-color:rgba(80,80,80,0.7)}
+.writings{color:yellowgreen;background:#333;width:500px;border-radius:0 50px}
+.footer a:hover {
+  background-color: yellowgreen;
+	color: black;}
+.trial {  display: inline-flex;
+left: 0px;  
+bottom: 0px;  
+right: 10px;   
+width: 100%;  
+	height: auto;
+background-color: #333;  
+color: yellowgreen;  
+text-align: right;  
+}  
+.left {
+  left: 0;
+	background-color: #333333;}
+.right {
+  right: 0;
+  background-color: yellowgreen;
+}
+.accordion{margin-bottom:120px}
+
+
+.container-card{
+	width: 80%;
+	margin:auto;
+}
+.container-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+	grid-gap: 10px;
+}
+.jocard{
+	
+}
+
+
